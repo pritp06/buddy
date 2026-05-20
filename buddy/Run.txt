@@ -1,0 +1,28 @@
+http://127.0.0.1:8000/
+
+cd ~/buddy
+
+python3 -m venv venv
+
+
+ls venv
+
+You should see something like:
+
+bin  include  lib  pyvenv.cfg
+
+Now activate it:
+
+source venv/bin/activate
+
+Your prompt should change to something like:
+
+(venv) tom@Tom-ASUS...
+
+Then continue:
+
+pip install -r backend/requirements.txt
+python backend/manage.py migrate
+python backend/manage.py runserver
+
+

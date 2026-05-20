@@ -1,0 +1,5 @@
+Django>=4.2,<5.0
+python-dotenv
+Pillow
+django-cors-headers
+django-filter>=24.0
